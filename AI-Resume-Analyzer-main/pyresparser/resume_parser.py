@@ -14,6 +14,7 @@ class ResumeParser(object):
         resume,
         skills_file=None,
         custom_regex=None
+        custom_regey=None
     ):
         nlp = spacy.load('en_core_web_sm')
         custom_nlp = spacy.load(os.path.dirname(os.path.abspath(__file__)))
@@ -105,6 +106,13 @@ if __name__ == '__main__':
             resume_result_wrapper,
             args=(x,)
         ) for x in resumes
+    ]
+
+          results = [
+        pool.apply_async(
+            resume_result_wrapper,
+            args=(y,)
+        ) for y in resumes
     ]
 
     results = [p.get() for p in results]
