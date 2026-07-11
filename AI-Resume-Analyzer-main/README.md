@@ -96,6 +96,17 @@ vi. To improve this tool by getting feedbacks
   </ul>
 </details>
 
+details>
+<summary>chapter</summary>
+  <ul>
+    <li><a href="https://pandas.pydata.org/">pandas</a></li>
+    <li><a href="https://github.com/OmkarPathak/pyresparser">pyresparser</a></li>
+    <li><a href="https://pypi.org/project/pdfminer3/">pdfminer3</a></li>
+    <li><a href="https://plotly.com/">Plotly</a></li>
+    <li><a href="https://www.nltk.org/">NLTK</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 ## Features 🤦‍♂️
 ### Client: -
